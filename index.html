@@ -123,7 +123,7 @@
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <!-- Image Column -->
           <div class="hero-img col-10 col-sm-8 col-lg-6 d-flex justify-content-center justify-content-lg-end">
-            <img src="/img/svg-icons/logodarkNE.svg" class="img-fluid rounded-3" alt="Bootstrap Themes" width="700"
+            <img src="img/svg-icons/logodarkNE.svg" class="img-fluid rounded-3" alt="Bootstrap Themes" width="700"
               height="500" loading="lazy">
           </div>
           <!-- Text Content Column -->
@@ -234,7 +234,7 @@
           <p class="lead text-body-secondary">Here are some photos of our past work.</p>
           <p>
             <a href="#contact" class="btn btn-primary btn-primary-custom my-2">Contact Us</a>
-            <!-- <a href="#" class="btn btn-outline-secondary btn-secondary-custom my-2">Secondary action</a> -->
+            <a href="gallery.html" class="btn btn-outline-secondary btn-secondary-custom my-2">View More</a>
           </p>
         </div>
       </div>
@@ -401,64 +401,12 @@
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <div class="card-header py-3">
-                <h4 class="my-0 fw-normal text-start">Before</h4>
-              </div>
-              <div class="image-container">
 
-                <img src="img/unsplash-photo-1.jpg" class="card-img-top-portfolio" alt="Thumbnail" role="img"
-                  aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-              </div>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural
-                  lead-in to
-                  additional
-                  content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary view-button"
-                      data-image-src="img/portfolio/NEHC Logo 500px.png" data-title="Image Title will be here">
-                      View
-                    </button>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <div class="card-header py-3">
-                <h4 class="my-0 fw-normal text-start">After</h4>
-              </div>
-              <div class="image-container">
-
-                <img src="img/portfolio/NEHC Logo 500px.png" class="card-img-top-portfolio" alt="Thumbnail" role="img"
-                  aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-              </div>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural
-                  lead-in to
-                  additional
-                  content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary view-button"
-                      data-image-src="img/portfolio/NEHC Logo 500px.png" data-title="Image Title will be here">
-                      View
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-      <div class="pt-5 text-center">
+      <!-- <div class="pt-5 text-center">
         <a href="#contact" class="btn btn-primary btn-primary-custom my-2">View More</a>
-      </div>
+      </div> -->
 
     </div>
     </section>
@@ -471,14 +419,41 @@
     <!--------------------->
     <section id="contact" class="py-5">
       <div class="container px-4">
+        <!-- Enquiries Heading -->
         <h2 class="pb-2 border-bottom text-left barlow-condensed-regular" data-aos="fade-down" data-aos-duration="1000">
           Enquiries
         </h2>
-        <p><a href="tel:07475388239"> 07475388239</a></p>
+
+        <!-- Contact Info (Phone Number and Social Links) -->
+        <div class="row justify-content-left text-md-start text-left mb-4">
+          <div class="col-md-12">
+            <!-- Telephone Info -->
+            <h3 class="fw-light py-3 my-3">
+              <i class="fas fa-phone-alt"></i> <!-- Font Awesome telephone icon -->
+              Telephone: <a href="tel:07475388239" class="text-decoration-none" style="color: black">07475388239</a>
+            </h3>
+
+            <!-- Social Links -->
+            <div class="social-links d-flex flex-wrap gap-3 py-3 justify-content-md-start justify-content-left">
+              <a href="https://www.facebook.com" class="btn btn-outline-secondary btn-lg" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i> <!-- Font Awesome Facebook icon -->
+              </a>
+              <a href="https://www.twitter.com" class="btn btn-outline-secondary btn-lg" aria-label="Twitter">
+                <i class="fab fa-twitter"></i> <!-- Font Awesome Twitter icon -->
+              </a>
+              <a href="https://www.instagram.com" class="btn btn-outline-secondary btn-lg" aria-label="Instagram">
+                <i class="fab fa-instagram"></i> <!-- Font Awesome Instagram icon -->
+              </a>
+              <a href="mailto:info@example.com" class="btn btn-outline-secondary btn-lg" aria-label="Email">
+                <i class="fas fa-envelope"></i> <!-- Font Awesome Email icon -->
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
         <div class="row pt-4">
-          <!-- Contact Form Column -->
           <div class="col-md-12" data-aos="fade-up" data-aos-duration="1000">
-            <!-- Bootstrap contact form -->
             <form id="contact-form" method="post">
               <div class="row mb-3">
                 <div class="col-md-6">
@@ -519,6 +494,8 @@
         </div>
       </div>
     </section>
+
+
 
 
 
